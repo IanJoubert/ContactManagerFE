@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Contacts Manager - Registration</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <div class="login-page">
+            <div class="form">
+              <form class="register-form">
+                <input type="text" id="email" placeholder="email address"/>
+                <input type="text" id="firstName" placeholder="name"/>
+                <input type="text" id="surname" placeholder="surname"/>
+                <input type="text" id="phoneNumber" placeholder="phone number"/>
+                <input type="password" id="password" placeholder="password"/>
+                <label id="error"></label>
+                <button type="button" onclick="register(email, firstName, surname, phoneNumber, password)">create</button>
+                <p class="message">Already registered? <a href="index.html">Log In</a></p>
+              </form>
+            </div>
+          </div>
+    </body>
+</html>
